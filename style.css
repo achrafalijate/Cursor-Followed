@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.cursor {
+  display: flex;
+  cursor: default;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(68, 255, 0);
+  position: fixed;
+  z-index: -5;
+  border-radius: 50%;
+}
+
+.blur {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: rgba(1, 6, 4, 0.435);
+  filter: blur(95px);
+  position: fixed;
+  z-index: -4;
+}
